@@ -2,6 +2,12 @@
 
 Taiwan Invoice Lottery API
 
+# Installation
+
+```
+composer require roliroli/invoice-lottery-taiwan
+```
+
 # Example
 
 ```php
