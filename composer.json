@@ -1,0 +1,19 @@
+{
+    "name": "roliroli/invoice-lottery-taiwan",
+    "description": "Taiwan Invoice Lottery API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roli",
+            "email": "kuroridoplayer@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Roliroli\\InvoiceLotteryTaiwan\\": "src"
+        }
+    }
+}
