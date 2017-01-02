@@ -60,9 +60,11 @@ class InvoiceLotteryTaiwan
               case 9: $key = 'addition'; break;
             }
 
-            $result[$key] = compact('title', 'name', 'numbers', 'description');
+            $result[$key] = compact('name', 'numbers', 'description');
         }
 
-        return $result;
+        return array_merge([
+          'title' => $title
+        ], $result);
     }
 }

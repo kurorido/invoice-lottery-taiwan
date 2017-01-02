@@ -27,6 +27,7 @@ Format compatible with another <a href="https://github.com/zlargon/receipt-lotte
 ```json
 {
     "new": {
+        "title": "105年09-10月",
         "super": {
             "name": "特別獎",
             "numbers": [
@@ -87,6 +88,7 @@ Format compatible with another <a href="https://github.com/zlargon/receipt-lotte
         }
     },
     "old": {
+        "title": "105年07-08月",
         "super": {
             "name": "特別獎",
             "numbers": [
@@ -145,6 +147,7 @@ Format compatible with another <a href="https://github.com/zlargon/receipt-lotte
             ],
             "description": "同期統一發票收執聯末3 位數號碼與上列號碼相同者各得獎金 2 百元"
         }
+    }
 }
 ```
 
